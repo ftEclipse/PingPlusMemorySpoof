@@ -13,7 +13,7 @@ end
 
 Memory:GetPropertyChangedSignal("Text"):Connect(function()
     local Random = math.random(Settings.range1,Settings.range2)
-    Random = Random * 1.23 
+    Random = Random * 1.002
     Memory.Text = "".. Random .." MB"
 end)
 
